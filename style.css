@@ -12,6 +12,8 @@ body {
   list-style: none;
 }
 
+
+
 nav {
   width: 100vw;
   height: 85px;
@@ -122,16 +124,26 @@ nav ul li a:hover{
 
 .container2 img{
   width: 500px;
-  margin-right: 450px;
+  margin-right: 12px;
  
   
 }
+.container2 .txt{
+  width: 100%;
+  display: flex;
+  
+  justify-content: center;
 
+}
 .container2 p{
-  width: 450px;
+  width: 1000px;
   height: 150px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
+  border: 1px solid black;
+  
+
+  
 }
 
 .competences{
@@ -166,6 +178,6 @@ border-radius: 50%;
 .container3  .card:hover img{
   transform: scale(0.325);
   filter:grayscale(0%);
-  transition:.5s
+  transition:.75s
 }
 
