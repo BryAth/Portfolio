@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+nav {
+  width: 100vw;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  
+
+}
+
+nav .logo img{
+  width: 80px;
+  height: 80px;
+  margin-left: 50px;
+ 
+}
+
+nav ul li {
+  display: inline;
+  flex-direction: initial;
+  margin: 50px;
+  height: 100%;
+}
+
+nav ul li a {
+  font-size: 2rem;
+  color:black;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  background-color: black;
+  border-bottom: 1px solid black;
+  transition: 1s;
+  color:white;
+  transform: scale(1.5);
+}
+.bgheader{
+  background-image: url(/img/code-583073.jpg);
+  width: 100vw;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  display: flex;
+}
+
+.bgheader .para {
+  color:white;
+  font-size: 2rem;
+  display: block;
+  position: absolute;
+  top:25%;
+  left:25%;
+  font-family: "roboto";
+}
+
+.bgheader .para button{
+  display: flex;
+  margin-top: 15px;
+  margin-left:35px;
+  padding: .75rem 1.25rem;
+  background-color: green;
+  border-radius: 10rem;
+  border: 0px;
+}
+
+.bgheader .para button:before{
+
+}
