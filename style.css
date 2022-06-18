@@ -5,6 +5,10 @@ body {
   font-family: "Roboto";
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +39,7 @@ nav .logo img{
 
 nav ul li {
   display: inline;
-  flex-direction: initial;
+  
   margin: 50px;
   height: 100%;
 }
